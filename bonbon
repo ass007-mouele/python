@@ -1,0 +1,8 @@
+def bonbon (argent=float,prix=float):
+    nombre=int
+    nombre=0
+    if argent and prix > 0:
+       while(argent >=prix and prix > 0):
+          argent=argent-prix
+          nombre+=1
+       return nombre
